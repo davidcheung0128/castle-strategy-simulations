@@ -1,0 +1,1061 @@
+{
+  "seed": 20261102,
+  "sources": [
+    {
+      "repo": "nischalon10/poker-bot-tournament",
+      "path": "README.md",
+      "game1": [
+        1,
+        0,
+        21,
+        31,
+        47
+      ],
+      "game2": [
+        0,
+        0,
+        48,
+        52,
+        0
+      ],
+      "commit": "a24dbbed99cb09289538563c26133e07433e8c99",
+      "source_url": "https://github.com/nischalon10/poker-bot-tournament/blob/a24dbbed99cb09289538563c26133e07433e8c99/README.md",
+      "source_line_numbers": [
+        22,
+        23
+      ]
+    },
+    {
+      "repo": "rahulr-1006/castle_game",
+      "path": "README.md",
+      "game1": [
+        8,
+        17,
+        30,
+        44,
+        1
+      ],
+      "game2": [
+        18,
+        8,
+        2,
+        2,
+        70
+      ],
+      "commit": "49a7353496f83244149c51f243cb4bfd297578ec",
+      "source_url": "https://github.com/rahulr-1006/castle_game/blob/49a7353496f83244149c51f243cb4bfd297578ec/README.md",
+      "source_line_numbers": [
+        18,
+        19
+      ]
+    },
+    {
+      "repo": "qbeka/No-Limit-a-bot-building-tournament-simulations",
+      "path": "README.md",
+      "game1": [
+        3,
+        5,
+        27,
+        2,
+        63
+      ],
+      "game2": [
+        2,
+        34,
+        3,
+        59,
+        2
+      ],
+      "commit": "665a58f6a6b087ad4de199a4d1ac37ad4fe806d8",
+      "source_url": "https://github.com/qbeka/No-Limit-a-bot-building-tournament-simulations/blob/665a58f6a6b087ad4de199a4d1ac37ad4fe806d8/README.md",
+      "source_line_numbers": [
+        20,
+        21
+      ]
+    },
+    {
+      "repo": "PartyD1/castle-game",
+      "path": "outputs/REPORT.md",
+      "game1": [
+        2,
+        3,
+        5,
+        37,
+        53
+      ],
+      "game2": [
+        0,
+        0,
+        39,
+        61,
+        0
+      ],
+      "commit": "f6ce78d2ae5ddcdbd0e7d9712ba05ceb8eb9435e",
+      "source_url": "https://github.com/PartyD1/castle-game/blob/f6ce78d2ae5ddcdbd0e7d9712ba05ceb8eb9435e/outputs/REPORT.md",
+      "source_line_numbers": [
+        9,
+        10
+      ]
+    }
+  ],
+  "published_picks_are_not_verified_submissions": true,
+  "literal_field_assumption": "Equal weight on four repositories, one entrant per source; no jitter.",
+  "game1": {
+    "current": [
+      2,
+      3,
+      5,
+      41,
+      49
+    ],
+    "current_mean": 7.0,
+    "current_scores": [
+      12.0,
+      5.0,
+      4.0,
+      7.0
+    ],
+    "targeted_counter": [
+      4,
+      18,
+      31,
+      45,
+      2
+    ],
+    "targeted_counter_mean": 11.0,
+    "targeted_counter_scores": [
+      10.0,
+      14.0,
+      10.0,
+      10.0
+    ],
+    "per_source": [
+      {
+        "source": "nischalon10/poker-bot-tournament",
+        "current_score": 12.0,
+        "targeted_counter": [
+          19,
+          1,
+          0,
+          32,
+          48
+        ],
+        "targeted_counter_score": 12.0
+      },
+      {
+        "source": "rahulr-1006/castle_game",
+        "current_score": 5.0,
+        "targeted_counter": [
+          4,
+          18,
+          31,
+          45,
+          2
+        ],
+        "targeted_counter_score": 14.0
+      },
+      {
+        "source": "qbeka/No-Limit-a-bot-building-tournament-simulations",
+        "current_score": 4.0,
+        "targeted_counter": [
+          5,
+          0,
+          28,
+          3,
+          64
+        ],
+        "targeted_counter_score": 13.0
+      },
+      {
+        "source": "PartyD1/castle-game",
+        "current_score": 7.0,
+        "targeted_counter": [
+          2,
+          0,
+          6,
+          38,
+          54
+        ],
+        "targeted_counter_score": 12.5
+      }
+    ]
+  },
+  "game2": {
+    "current": [
+      1,
+      41,
+      0,
+      58,
+      0
+    ],
+    "current_mean": 0.5,
+    "targeted_optimum": {
+      "allocation": [
+        19,
+        9,
+        0,
+        62,
+        10
+      ],
+      "mean": 7.75,
+      "allocations_checked": 4598126,
+      "number_of_tied_optima": 495,
+      "first_ten_optimal_allocations": [
+        [
+          19,
+          9,
+          0,
+          62,
+          10
+        ],
+        [
+          19,
+          9,
+          0,
+          63,
+          9
+        ],
+        [
+          19,
+          9,
+          0,
+          64,
+          8
+        ],
+        [
+          19,
+          9,
+          0,
+          65,
+          7
+        ],
+        [
+          19,
+          9,
+          0,
+          66,
+          6
+        ],
+        [
+          19,
+          9,
+          0,
+          67,
+          5
+        ],
+        [
+          19,
+          9,
+          0,
+          68,
+          4
+        ],
+        [
+          19,
+          9,
+          0,
+          69,
+          3
+        ],
+        [
+          19,
+          9,
+          0,
+          70,
+          2
+        ],
+        [
+          19,
+          9,
+          1,
+          62,
+          9
+        ]
+      ]
+    },
+    "exact_groups": [
+      {
+        "opponents": [
+          "nischalon10/poker-bot-tournament",
+          "rahulr-1006/castle_game",
+          "qbeka/No-Limit-a-bot-building-tournament-simulations"
+        ],
+        "counter_castle_scores": [
+          5.0,
+          3.0,
+          5.0,
+          2.0
+        ],
+        "counter_payout": 6.5,
+        "current_payout": 0.0
+      },
+      {
+        "opponents": [
+          "nischalon10/poker-bot-tournament",
+          "rahulr-1006/castle_game",
+          "PartyD1/castle-game"
+        ],
+        "counter_castle_scores": [
+          7.0,
+          3.0,
+          5.0,
+          0.0
+        ],
+        "counter_payout": 9.0,
+        "current_payout": 0.0
+      },
+      {
+        "opponents": [
+          "nischalon10/poker-bot-tournament",
+          "qbeka/No-Limit-a-bot-building-tournament-simulations",
+          "PartyD1/castle-game"
+        ],
+        "counter_castle_scores": [
+          10.0,
+          3.0,
+          2.0,
+          0.0
+        ],
+        "counter_payout": 9.0,
+        "current_payout": 0.0
+      },
+      {
+        "opponents": [
+          "rahulr-1006/castle_game",
+          "qbeka/No-Limit-a-bot-building-tournament-simulations",
+          "PartyD1/castle-game"
+        ],
+        "counter_castle_scores": [
+          5.0,
+          5.0,
+          2.0,
+          3.0
+        ],
+        "counter_payout": 6.5,
+        "current_payout": 2.0
+      }
+    ],
+    "independent_1000_group_simulation": {
+      "mean": 7.7325,
+      "standard_error": 0.039544373904608826,
+      "outright_first_rate": 0.493,
+      "tied_first_rate": 0.507
+    }
+  },
+  "mixed_fields": {
+    "1": [
+      {
+        "public_copy_share": 0,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              2,
+              3,
+              5,
+              41,
+              49
+            ],
+            "mean": 8.934099999999999,
+            "ten_seed_scores": [
+              8.852,
+              8.9485,
+              8.918,
+              8.944,
+              9.009,
+              8.959,
+              8.9745,
+              8.9265,
+              8.895,
+              8.9145
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              4,
+              18,
+              31,
+              45,
+              2
+            ],
+            "mean": 8.1102,
+            "ten_seed_scores": [
+              8.1195,
+              8.0505,
+              8.1235,
+              8.14,
+              8.1155,
+              8.152,
+              8.0605,
+              8.124,
+              8.1255,
+              8.091
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              1,
+              2,
+              25,
+              31,
+              41
+            ],
+            "mean": 9.74945,
+            "ten_seed_scores": [
+              9.754,
+              9.7235,
+              9.8915,
+              9.713,
+              9.713,
+              9.7565,
+              9.812,
+              9.764,
+              9.6755,
+              9.6915
+            ]
+          }
+        }
+      },
+      {
+        "public_copy_share": 0.25,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              2,
+              3,
+              5,
+              41,
+              49
+            ],
+            "mean": 8.457350000000002,
+            "ten_seed_scores": [
+              8.423,
+              8.4885,
+              8.445,
+              8.397,
+              8.408,
+              8.5145,
+              8.507,
+              8.4345,
+              8.4475,
+              8.5085
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              4,
+              18,
+              31,
+              45,
+              2
+            ],
+            "mean": 8.82965,
+            "ten_seed_scores": [
+              8.877,
+              8.811,
+              8.833,
+              8.78,
+              8.861,
+              8.7705,
+              8.9195,
+              8.841,
+              8.839,
+              8.7645
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              3,
+              6,
+              31,
+              38,
+              22
+            ],
+            "mean": 8.9093,
+            "ten_seed_scores": [
+              8.9745,
+              8.972,
+              8.841,
+              8.8305,
+              8.918,
+              8.941,
+              9.0655,
+              8.866,
+              8.858,
+              8.8265
+            ]
+          }
+        }
+      },
+      {
+        "public_copy_share": 0.5,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              2,
+              3,
+              5,
+              41,
+              49
+            ],
+            "mean": 7.986750000000001,
+            "ten_seed_scores": [
+              7.936,
+              8.0455,
+              7.985,
+              7.9955,
+              8.0,
+              7.9665,
+              7.9905,
+              7.9675,
+              8.007,
+              7.974
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              4,
+              18,
+              31,
+              45,
+              2
+            ],
+            "mean": 9.557549999999999,
+            "ten_seed_scores": [
+              9.4965,
+              9.505,
+              9.5285,
+              9.5935,
+              9.565,
+              9.5865,
+              9.6005,
+              9.525,
+              9.5645,
+              9.6105
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              4,
+              18,
+              31,
+              45,
+              2
+            ],
+            "mean": 9.557549999999999,
+            "ten_seed_scores": [
+              9.4965,
+              9.505,
+              9.5285,
+              9.5935,
+              9.565,
+              9.5865,
+              9.6005,
+              9.525,
+              9.5645,
+              9.6105
+            ]
+          }
+        }
+      },
+      {
+        "public_copy_share": 0.75,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              2,
+              3,
+              5,
+              41,
+              49
+            ],
+            "mean": 7.472350000000001,
+            "ten_seed_scores": [
+              7.4455,
+              7.479,
+              7.4335,
+              7.43,
+              7.4485,
+              7.525,
+              7.4905,
+              7.4815,
+              7.4265,
+              7.5635
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              4,
+              18,
+              31,
+              45,
+              2
+            ],
+            "mean": 10.273300000000003,
+            "ten_seed_scores": [
+              10.3085,
+              10.2205,
+              10.2425,
+              10.2675,
+              10.2585,
+              10.2955,
+              10.304,
+              10.26,
+              10.3135,
+              10.2625
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              4,
+              18,
+              31,
+              45,
+              2
+            ],
+            "mean": 10.273300000000003,
+            "ten_seed_scores": [
+              10.3085,
+              10.2205,
+              10.2425,
+              10.2675,
+              10.2585,
+              10.2955,
+              10.304,
+              10.26,
+              10.3135,
+              10.2625
+            ]
+          }
+        }
+      },
+      {
+        "public_copy_share": 1.0,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              2,
+              3,
+              5,
+              41,
+              49
+            ],
+            "mean": 7.0,
+            "ten_seed_scores": [
+              7.0,
+              7.0,
+              7.0,
+              7.0,
+              7.0,
+              7.0,
+              7.0,
+              7.0,
+              7.0,
+              7.0
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              4,
+              18,
+              31,
+              45,
+              2
+            ],
+            "mean": 11.0,
+            "ten_seed_scores": [
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              4,
+              18,
+              31,
+              45,
+              2
+            ],
+            "mean": 11.0,
+            "ten_seed_scores": [
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0,
+              11.0
+            ]
+          }
+        }
+      }
+    ],
+    "2": [
+      {
+        "public_copy_share": 0,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              1,
+              41,
+              0,
+              58,
+              0
+            ],
+            "mean": 6.37035,
+            "ten_seed_scores": [
+              6.1195,
+              6.4425,
+              6.593,
+              6.3735,
+              6.269,
+              6.6835,
+              6.33,
+              6.287,
+              6.285,
+              6.3205
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              19,
+              9,
+              0,
+              62,
+              10
+            ],
+            "mean": 4.00545,
+            "ten_seed_scores": [
+              3.997,
+              3.939,
+              3.937,
+              3.929,
+              4.046,
+              4.0965,
+              3.9665,
+              4.0555,
+              3.9855,
+              4.1025
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              0,
+              0,
+              34,
+              0,
+              66
+            ],
+            "mean": 7.492900000000001,
+            "ten_seed_scores": [
+              7.5305,
+              7.3775,
+              7.2885,
+              7.4695,
+              7.555,
+              7.5285,
+              7.7195,
+              7.5455,
+              7.411,
+              7.5035
+            ]
+          }
+        }
+      },
+      {
+        "public_copy_share": 0.25,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              1,
+              41,
+              0,
+              58,
+              0
+            ],
+            "mean": 4.7978,
+            "ten_seed_scores": [
+              4.645,
+              4.5605,
+              4.6045,
+              4.8085,
+              4.9835,
+              4.786,
+              4.8555,
+              4.967,
+              4.923,
+              4.8445
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              19,
+              9,
+              0,
+              62,
+              10
+            ],
+            "mean": 4.775399999999999,
+            "ten_seed_scores": [
+              4.757,
+              4.919,
+              4.6875,
+              4.556,
+              4.7835,
+              4.726,
+              4.7135,
+              4.865,
+              4.8585,
+              4.888
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              0,
+              29,
+              0,
+              0,
+              71
+            ],
+            "mean": 6.7134,
+            "ten_seed_scores": [
+              6.791,
+              6.7835,
+              6.6415,
+              6.7865,
+              6.542,
+              6.7285,
+              6.78,
+              6.6095,
+              6.7655,
+              6.706
+            ]
+          }
+        }
+      },
+      {
+        "public_copy_share": 0.5,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              1,
+              41,
+              0,
+              58,
+              0
+            ],
+            "mean": 3.5091,
+            "ten_seed_scores": [
+              3.5105,
+              3.5715,
+              3.275,
+              3.56,
+              3.332,
+              3.526,
+              3.7415,
+              3.372,
+              3.526,
+              3.6765
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              19,
+              9,
+              0,
+              62,
+              10
+            ],
+            "mean": 5.7128499999999995,
+            "ten_seed_scores": [
+              5.6825,
+              5.71,
+              5.699,
+              5.6195,
+              5.631,
+              5.863,
+              5.722,
+              5.849,
+              5.731,
+              5.6215
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              0,
+              35,
+              0,
+              62,
+              3
+            ],
+            "mean": 6.9096,
+            "ten_seed_scores": [
+              7.1095,
+              6.734,
+              6.7105,
+              6.798,
+              6.8135,
+              7.032,
+              7.11,
+              6.801,
+              6.934,
+              7.0535
+            ]
+          }
+        }
+      },
+      {
+        "public_copy_share": 0.75,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              1,
+              41,
+              0,
+              58,
+              0
+            ],
+            "mean": 2.60815,
+            "ten_seed_scores": [
+              2.601,
+              2.6615,
+              2.648,
+              2.584,
+              2.5005,
+              2.599,
+              2.5605,
+              2.8065,
+              2.5495,
+              2.571
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              19,
+              9,
+              0,
+              62,
+              10
+            ],
+            "mean": 6.826599999999999,
+            "ten_seed_scores": [
+              6.9735,
+              6.9205,
+              6.761,
+              6.757,
+              6.742,
+              6.705,
+              6.794,
+              6.9315,
+              6.9345,
+              6.747
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              0,
+              35,
+              0,
+              63,
+              2
+            ],
+            "mean": 7.2385,
+            "ten_seed_scores": [
+              7.2425,
+              7.369,
+              7.2,
+              7.217,
+              7.317,
+              7.263,
+              7.1885,
+              7.1885,
+              7.2445,
+              7.155
+            ]
+          }
+        }
+      },
+      {
+        "public_copy_share": 1.0,
+        "evaluations": {
+          "current": {
+            "allocation": [
+              1,
+              41,
+              0,
+              58,
+              0
+            ],
+            "mean": 2.0191999999999997,
+            "ten_seed_scores": [
+              2.02,
+              1.858,
+              2.127,
+              2.025,
+              1.9665,
+              1.9765,
+              2.023,
+              2.1325,
+              2.1055,
+              1.958
+            ]
+          },
+          "literal_counter": {
+            "allocation": [
+              19,
+              9,
+              0,
+              62,
+              10
+            ],
+            "mean": 8.286750000000001,
+            "ten_seed_scores": [
+              8.25,
+              8.32,
+              8.2875,
+              8.325,
+              8.3125,
+              8.2875,
+              8.3125,
+              8.265,
+              8.275,
+              8.2325
+            ]
+          },
+          "scenario_trained": {
+            "allocation": [
+              19,
+              11,
+              6,
+              62,
+              2
+            ],
+            "mean": 8.527000000000001,
+            "ten_seed_scores": [
+              8.515,
+              8.5325,
+              8.51,
+              8.545,
+              8.5575,
+              8.5425,
+              8.5775,
+              8.5025,
+              8.5225,
+              8.465
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

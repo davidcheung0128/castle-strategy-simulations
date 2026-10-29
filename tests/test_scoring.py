@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT/'outputs'))
 from blotto_ai import best_response, payoffs, marginals_of, self_check, validate
 from four_way_ai import check, game_scores, outcome
 from live_simulation import draw_groups, duel_scores
+from public_opponent_battle import test_helpers
 
 
 class RulesTests(unittest.TestCase):
@@ -53,6 +54,28 @@ class RulesTests(unittest.TestCase):
                 scores=np.array(row['per_seed_scenario_means'])
                 self.assertEqual(scores.shape,(10,4))
                 self.assertAlmostEqual(scores.mean(),row['mean'])
+
+    def test_exhaustive_enumerator_and_batch_scorer(self):
+        test_helpers()
+
+    def test_public_source_battle(self):
+        import itertools
+        sources=json.loads((ROOT/'outputs/public_opponents.json').read_text())['sources']
+        for source in sources:
+            validate(source['game1'])
+            validate(source['game2'])
+            self.assertEqual(len(source['commit']),40)
+            self.assertIn(source['commit'],source['source_url'])
+        rivals=np.array([s['game1'] for s in sources])
+        move,value=best_response(payoffs(marginals_of(rivals)))
+        self.assertEqual(move.tolist(),[4,18,31,45,2])
+        self.assertEqual(value,11)
+        self.assertEqual(duel_scores(move,rivals).tolist(),[10,14,10,10])
+        groups=np.array([s['game2'] for s in sources])[np.array(list(itertools.combinations(range(4),3)))]
+        payout=outcome(game_scores([19,9,0,62,10],groups))[0]
+        self.assertEqual(payout.tolist(),[6.5,9,9,6.5])
+        self.assertEqual(payout.mean(),7.75)
+        self.assertEqual(outcome(game_scores([1,41,0,58,0],groups))[0].mean(),.5)
 
 
 if __name__=='__main__':

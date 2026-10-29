@@ -53,6 +53,9 @@ python3 -u outputs/predicted_opponents_simulation.py
 
 # 5. Eight adaptive counter rounds, five training seeds, ten fresh test seeds
 python3 -u outputs/adaptive_simulation.py
+
+# 6. Battle published picks from four exact-match public repositories
+python3 -u outputs/public_opponent_battle.py
 ```
 
 The offline `outputs/castle-allocation-lab.html` is an interactive **Game 1** tool. Open it directly in a browser. Its embedded results are a snapshot; rerunning Python does not rewrite the HTML. Import a newly generated `results.json` to update it. It does not calculate Game 2 payouts.
@@ -67,7 +70,18 @@ The offline `outputs/castle-allocation-lab.html` is an interactive **Game 1** to
 
 See [the detailed process](docs/process.md) and [the concise application answer](docs/strategy-answer.md).
 
-## Latest completed results
+## Public-repository comparison
+
+Four external repositories publish concrete picks for these exact questions. Sources and their allocations are pinned to commits in `outputs/public_opponents.json`; we evaluate the allocation facts with our own scorer and do not execute third-party code.
+
+- **Game 1:** `4,18,31,45,2` is an exact best response to the four published Game 1 picks, scoring 10, 14, 10 and 10: **11/15** average. Our previous adaptive-model pick averages 7/15 against those same picks.
+- **Game 2:** `19,9,0,62,10` averages **7.75/9** against all four possible groups of three distinct sources: two outright firsts and two tied firsts. Exhaustively checking all 4,598,126 legal allocations proves this is optimal for that literal four-source field; **495 moves tie** at the optimum. Our previous adaptive-model pick averages 0.5/9 there.
+
+These are targeted counters, not universal recommendations. The report separately tests fields in which some applicants copy the public picks and others use the ordinary synthetic model. A targeted counter can perform worse when its targets are rare. Public repositories are not a representative sample of actual applicant submissions.
+
+Read [the sourced battle report](docs/public-repository-battle.md) for the rival answers, exact group outcomes, fresh 1,000-round checks, ten-seed sensitivity results and limitations.
+
+## Adaptive-opponent results before the public-repository comparison
 
 Under the **expanded adaptive-opponent model**, with equal weight on the four strategic-share scenarios:
 
