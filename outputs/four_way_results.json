@@ -1,0 +1,310 @@
+{
+  "game": 2,
+  "seed": 20261028,
+  "training_groups": 8000,
+  "validation_groups": 40000,
+  "final_test_groups": 200000,
+  "searched_allocations": 7921,
+  "opponent_model": "Each of the three opponents independently draws a family uniformly from the six Game 1 synthetic families, then a full legal allocation from that family. Draws use replacement to model a large applicant population.",
+  "selected_allocation": [
+    0,
+    0,
+    36,
+    0,
+    64
+  ],
+  "final_test_results": [
+    {
+      "name": "Selected Game 2 move",
+      "allocation": [
+        0,
+        0,
+        36,
+        0,
+        64
+      ],
+      "mean_payout": 7.516575,
+      "standard_error": 0.005774754807421734,
+      "outright_first_probability": 0.717985,
+      "shared_first_probability": 0.073135,
+      "mean_castle_points": 6.600654583333333
+    },
+    {
+      "name": "Game 1 recommendation",
+      "allocation": [
+        1,
+        1,
+        26,
+        32,
+        40
+      ],
+      "mean_payout": 5.7968125,
+      "standard_error": 0.007779061352001047,
+      "outright_first_probability": 0.49747,
+      "shared_first_probability": 0.05018,
+      "mean_castle_points": 5.704935833333334
+    },
+    {
+      "name": "Earlier suggestion",
+      "allocation": [
+        4,
+        11,
+        21,
+        28,
+        36
+      ],
+      "mean_payout": 4.03777,
+      "standard_error": 0.007904340075456024,
+      "outright_first_probability": 0.277615,
+      "shared_first_probability": 0.05922,
+      "mean_castle_points": 3.8866941666666666
+    },
+    {
+      "name": "Even split",
+      "allocation": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "mean_payout": 1.7518575,
+      "standard_error": 0.005034987289353745,
+      "outright_first_probability": 0.04967,
+      "shared_first_probability": 0.0302,
+      "mean_castle_points": 2.1277991666666667
+    },
+    {
+      "name": "Proportional",
+      "allocation": [
+        7,
+        13,
+        20,
+        27,
+        33
+      ],
+      "mean_payout": 3.255595,
+      "standard_error": 0.0075011315689533856,
+      "outright_first_probability": 0.1975,
+      "shared_first_probability": 0.0523,
+      "mean_castle_points": 3.2185225
+    },
+    {
+      "name": "Two high castles",
+      "allocation": [
+        0,
+        0,
+        0,
+        45,
+        55
+      ],
+      "mean_payout": 7.2260875,
+      "standard_error": 0.006128221906657546,
+      "outright_first_probability": 0.675255,
+      "shared_first_probability": 0.050375,
+      "mean_castle_points": 7.016894583333333
+    }
+  ],
+  "gain_vs_game1": {
+    "mean": 1.7197625,
+    "paired_standard_error": 0.008574590869890627
+  },
+  "validation_top_candidates": [
+    {
+      "allocation": [
+        0,
+        0,
+        36,
+        0,
+        64
+      ],
+      "mean_payout": 7.488025,
+      "standard_error": 0.013022913648311284,
+      "outright_first_probability": 0.71375,
+      "shared_first_probability": 0.0726,
+      "mean_castle_points": 6.573154166666666
+    },
+    {
+      "allocation": [
+        0,
+        0,
+        35,
+        0,
+        65
+      ],
+      "mean_payout": 7.4863625,
+      "standard_error": 0.01285917534971083,
+      "outright_first_probability": 0.7075,
+      "shared_first_probability": 0.077475,
+      "mean_castle_points": 6.557737500000001
+    },
+    {
+      "allocation": [
+        0,
+        0,
+        37,
+        0,
+        63
+      ],
+      "mean_payout": 7.47775,
+      "standard_error": 0.013217417143315046,
+      "outright_first_probability": 0.7179,
+      "shared_first_probability": 0.067925,
+      "mean_castle_points": 6.583691666666667
+    },
+    {
+      "allocation": [
+        0,
+        0,
+        34,
+        0,
+        66
+      ],
+      "mean_payout": 7.4762625,
+      "standard_error": 0.012723727514309249,
+      "outright_first_probability": 0.699675,
+      "shared_first_probability": 0.083075,
+      "mean_castle_points": 6.534087499999999
+    },
+    {
+      "allocation": [
+        0,
+        0,
+        38,
+        0,
+        62
+      ],
+      "mean_payout": 7.4622875,
+      "standard_error": 0.013432669554071429,
+      "outright_first_probability": 0.72145,
+      "shared_first_probability": 0.063375,
+      "mean_castle_points": 6.589370833333334
+    },
+    {
+      "allocation": [
+        0,
+        0,
+        33,
+        0,
+        67
+      ],
+      "mean_payout": 7.457225,
+      "standard_error": 0.012614529743252067,
+      "outright_first_probability": 0.6908,
+      "shared_first_probability": 0.08765,
+      "mean_castle_points": 6.505054166666667
+    },
+    {
+      "allocation": [
+        0,
+        0,
+        39,
+        0,
+        61
+      ],
+      "mean_payout": 7.444075,
+      "standard_error": 0.013635026868632041,
+      "outright_first_probability": 0.723925,
+      "shared_first_probability": 0.0591,
+      "mean_castle_points": 6.589920833333333
+    },
+    {
+      "allocation": [
+        0,
+        0,
+        32,
+        0,
+        68
+      ],
+      "mean_payout": 7.4342375,
+      "standard_error": 0.012497424963992063,
+      "outright_first_probability": 0.68065,
+      "shared_first_probability": 0.092675,
+      "mean_castle_points": 6.470295833333334
+    },
+    {
+      "allocation": [
+        1,
+        0,
+        35,
+        0,
+        64
+      ],
+      "mean_payout": 7.4314375,
+      "standard_error": 0.013129847034978086,
+      "outright_first_probability": 0.701075,
+      "shared_first_probability": 0.076875,
+      "mean_castle_points": 6.517460416666666
+    },
+    {
+      "allocation": [
+        0,
+        1,
+        35,
+        0,
+        64
+      ],
+      "mean_payout": 7.431225,
+      "standard_error": 0.013129063534468377,
+      "outright_first_probability": 0.700975,
+      "shared_first_probability": 0.07695,
+      "mean_castle_points": 6.517325
+    }
+  ],
+  "homogeneous_family_sensitivity": {
+    "Even-ish": {
+      "Selected Game 2 move": 8.99975,
+      "Game 1 recommendation": 8.9995,
+      "Earlier suggestion": 8.9004,
+      "Even split": 1.7969333333333333,
+      "Proportional": 8.77775,
+      "Two high castles": 9.0
+    },
+    "Value proportional": {
+      "Selected Game 2 move": 8.999283333333333,
+      "Game 1 recommendation": 8.39375,
+      "Earlier suggestion": 3.6799833333333334,
+      "Even split": 2.45645,
+      "Proportional": 1.7290833333333333,
+      "Two high castles": 8.9995
+    },
+    "High castles focused": {
+      "Selected Game 2 move": 7.255566666666667,
+      "Game 1 recommendation": 2.3549,
+      "Earlier suggestion": 2.52205,
+      "Even split": 2.11835,
+      "Proportional": 2.3144833333333334,
+      "Two high castles": 6.129016666666667
+    },
+    "Broad random": {
+      "Selected Game 2 move": 7.436933333333333,
+      "Game 1 recommendation": 6.562966666666667,
+      "Earlier suggestion": 5.5913,
+      "Even split": 3.1109666666666667,
+      "Proportional": 5.1226666666666665,
+      "Two high castles": 7.727416666666667
+    },
+    "Uniform integer allocations": {
+      "Selected Game 2 move": 7.354683333333333,
+      "Game 1 recommendation": 6.42685,
+      "Earlier suggestion": 5.4950833333333335,
+      "Even split": 3.0472166666666665,
+      "Proportional": 5.051616666666667,
+      "Two high castles": 7.61515
+    },
+    "Sacrifice castles": {
+      "Selected Game 2 move": 5.482716666666667,
+      "Game 1 recommendation": 3.0747833333333334,
+      "Earlier suggestion": 2.51875,
+      "Even split": 2.06595,
+      "Proportional": 2.349266666666667,
+      "Two high castles": 4.687733333333333
+    }
+  },
+  "limitations": [
+    "No real applicant data.",
+    "Heuristic search, not an exhaustive global optimum.",
+    "No equilibrium or worst-case guarantee for this four-player rank-payout game.",
+    "Monte Carlo standard errors measure simulation noise, not uncertainty about human behavior."
+  ]
+}

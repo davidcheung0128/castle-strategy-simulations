@@ -1,0 +1,43 @@
+{
+  "seed": 20261029,
+  "opponent_source": "Hypothetical 1,000-applicant population, near-equal mixture of six documented families",
+  "exact_rules": true,
+  "game1": {
+    "allocation": [
+      1,
+      1,
+      26,
+      32,
+      40
+    ],
+    "rounds": 1000,
+    "mean": 9.7585,
+    "standard_error": 0.07340174088920212,
+    "previous_recommendation_mean": 9.7585
+  },
+  "game2": {
+    "allocation": [
+      0,
+      0,
+      36,
+      0,
+      64
+    ],
+    "rounds": 1000,
+    "mean": 7.752,
+    "standard_error": 0.07399304677448396,
+    "outright_first_rate": 0.749,
+    "tied_first_rate": 0.065,
+    "previous_recommendation_mean": 7.752,
+    "game1_allocation_mean": 5.818
+  },
+  "game2_candidates": 3634,
+  "game1_training_mean": 9.766000000000005,
+  "game2_training_mean": 7.4415,
+  "limits": [
+    "Actual scores depend on actual applicant submissions.",
+    "Game 1 optimum is exact for the training population only.",
+    "Game 2 uses heuristic search; no global-optimality or equilibrium claim.",
+    "1,000 rounds have sampling noise; neighboring allocations may be statistically indistinguishable."
+  ]
+}

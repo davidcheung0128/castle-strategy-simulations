@@ -1,0 +1,1125 @@
+{
+  "seed": 20261030,
+  "rounds_per_scenario": 1000,
+  "shares": [
+    0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "predicted_answers_are_hypotheses": true,
+  "strong_anchor_lists": {
+    "1": [
+      [
+        1,
+        1,
+        26,
+        32,
+        40
+      ],
+      [
+        4,
+        11,
+        21,
+        28,
+        36
+      ],
+      [
+        7,
+        13,
+        20,
+        27,
+        33
+      ],
+      [
+        24,
+        2,
+        0,
+        33,
+        41
+      ],
+      [
+        0,
+        12,
+        22,
+        29,
+        37
+      ],
+      [
+        3,
+        14,
+        21,
+        28,
+        34
+      ],
+      [
+        1,
+        2,
+        25,
+        31,
+        41
+      ],
+      [
+        1,
+        1,
+        25,
+        34,
+        39
+      ],
+      [
+        1,
+        1,
+        26,
+        33,
+        39
+      ],
+      [
+        1,
+        2,
+        27,
+        32,
+        38
+      ]
+    ],
+    "2": [
+      [
+        0,
+        0,
+        36,
+        0,
+        64
+      ],
+      [
+        0,
+        0,
+        35,
+        0,
+        65
+      ],
+      [
+        0,
+        0,
+        38,
+        0,
+        62
+      ],
+      [
+        0,
+        0,
+        0,
+        45,
+        55
+      ],
+      [
+        0,
+        0,
+        0,
+        40,
+        60
+      ],
+      [
+        1,
+        1,
+        37,
+        1,
+        60
+      ],
+      [
+        1,
+        1,
+        0,
+        33,
+        65
+      ],
+      [
+        7,
+        18,
+        2,
+        0,
+        73
+      ],
+      [
+        6,
+        6,
+        8,
+        3,
+        77
+      ]
+    ]
+  },
+  "strong_model": "Uniform draws over listed anchors; 65% unchanged, 35% attempt a random legal transfer of 1\u20133 soldiers (zero-troop donors can leave a move unchanged).",
+  "games": {
+    "1": {
+      "previous": [
+        1,
+        1,
+        26,
+        32,
+        40
+      ],
+      "scenario_specialists": [
+        [
+          1,
+          2,
+          26,
+          33,
+          38
+        ],
+        [
+          0,
+          2,
+          22,
+          34,
+          42
+        ],
+        [
+          5,
+          17,
+          1,
+          35,
+          42
+        ],
+        [
+          7,
+          15,
+          1,
+          35,
+          42
+        ]
+      ],
+      "selected_on_training": [
+        5,
+        17,
+        1,
+        35,
+        42
+      ],
+      "cautious_shortlist_choice": [
+        0,
+        2,
+        22,
+        34,
+        42
+      ],
+      "selection_objective": "Equal-weight mean over four training scenarios; weights are assumptions.",
+      "test_evaluations": [
+        {
+          "allocation": [
+            1,
+            1,
+            26,
+            32,
+            40
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.6545,
+              "standard_error": 0.07369403341221432
+            },
+            {
+              "mean": 9.642,
+              "standard_error": 0.07891491344203302
+            },
+            {
+              "mean": 9.5135,
+              "standard_error": 0.08287300939199498
+            },
+            {
+              "mean": 9.4065,
+              "standard_error": 0.08762240258880966
+            }
+          ],
+          "equal_scenario_test_average": 9.554125
+        },
+        {
+          "allocation": [
+            1,
+            2,
+            26,
+            33,
+            38
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.664,
+              "standard_error": 0.07222063292314614
+            },
+            {
+              "mean": 9.572,
+              "standard_error": 0.07771972951803394
+            },
+            {
+              "mean": 9.393,
+              "standard_error": 0.08120434191067091
+            },
+            {
+              "mean": 9.2765,
+              "standard_error": 0.08436180809267108
+            }
+          ],
+          "equal_scenario_test_average": 9.476374999999999
+        },
+        {
+          "allocation": [
+            0,
+            2,
+            22,
+            34,
+            42
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.585,
+              "standard_error": 0.07020116240635338
+            },
+            {
+              "mean": 9.9085,
+              "standard_error": 0.06629308050258731
+            },
+            {
+              "mean": 10.3265,
+              "standard_error": 0.062128960700769474
+            },
+            {
+              "mean": 10.5525,
+              "standard_error": 0.05717746945268751
+            }
+          ],
+          "equal_scenario_test_average": 10.093125
+        },
+        {
+          "allocation": [
+            5,
+            17,
+            1,
+            35,
+            42
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.112,
+              "standard_error": 0.06140624338556078
+            },
+            {
+              "mean": 9.9325,
+              "standard_error": 0.0666643674528446
+            },
+            {
+              "mean": 10.574,
+              "standard_error": 0.06305949968482545
+            },
+            {
+              "mean": 11.222,
+              "standard_error": 0.05760237871853934
+            }
+          ],
+          "equal_scenario_test_average": 10.210125
+        },
+        {
+          "allocation": [
+            7,
+            15,
+            1,
+            35,
+            42
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.0805,
+              "standard_error": 0.061506526505752245
+            },
+            {
+              "mean": 9.919,
+              "standard_error": 0.06712633570324648
+            },
+            {
+              "mean": 10.573,
+              "standard_error": 0.06360988301527694
+            },
+            {
+              "mean": 11.2445,
+              "standard_error": 0.057604583481160924
+            }
+          ],
+          "equal_scenario_test_average": 10.20425
+        },
+        {
+          "allocation": [
+            4,
+            11,
+            21,
+            28,
+            36
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.059,
+              "standard_error": 0.07212295557394138
+            },
+            {
+              "mean": 8.074,
+              "standard_error": 0.09674649287640295
+            },
+            {
+              "mean": 7.2655,
+              "standard_error": 0.11014032250107425
+            },
+            {
+              "mean": 6.0955,
+              "standard_error": 0.1109050480351534
+            }
+          ],
+          "equal_scenario_test_average": 7.6235
+        },
+        {
+          "allocation": [
+            7,
+            13,
+            20,
+            27,
+            33
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 8.6845,
+              "standard_error": 0.07748363352001159
+            },
+            {
+              "mean": 7.544,
+              "standard_error": 0.10011036952327208
+            },
+            {
+              "mean": 6.326,
+              "standard_error": 0.10699379267822816
+            },
+            {
+              "mean": 4.874,
+              "standard_error": 0.09141926209219521
+            }
+          ],
+          "equal_scenario_test_average": 6.857125
+        },
+        {
+          "allocation": [
+            24,
+            2,
+            0,
+            33,
+            41
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 8.433,
+              "standard_error": 0.06526308505020484
+            },
+            {
+              "mean": 8.7565,
+              "standard_error": 0.06470041648933872
+            },
+            {
+              "mean": 9.0395,
+              "standard_error": 0.059655247032415336
+            },
+            {
+              "mean": 9.285,
+              "standard_error": 0.05356906425022417
+            }
+          ],
+          "equal_scenario_test_average": 8.8785
+        },
+        {
+          "allocation": [
+            0,
+            12,
+            22,
+            29,
+            37
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.3275,
+              "standard_error": 0.0738644007604455
+            },
+            {
+              "mean": 8.517,
+              "standard_error": 0.1032175608356682
+            },
+            {
+              "mean": 7.782,
+              "standard_error": 0.12554376622213162
+            },
+            {
+              "mean": 6.9425,
+              "standard_error": 0.13482626551184998
+            }
+          ],
+          "equal_scenario_test_average": 8.14225
+        },
+        {
+          "allocation": [
+            3,
+            14,
+            21,
+            28,
+            34
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 8.981,
+              "standard_error": 0.07522830782556722
+            },
+            {
+              "mean": 8.0725,
+              "standard_error": 0.09839041835679135
+            },
+            {
+              "mean": 7.176,
+              "standard_error": 0.11242180688221774
+            },
+            {
+              "mean": 6.0505,
+              "standard_error": 0.11084216587443489
+            }
+          ],
+          "equal_scenario_test_average": 7.57
+        },
+        {
+          "allocation": [
+            1,
+            2,
+            25,
+            31,
+            41
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.6725,
+              "standard_error": 0.07210195865884951
+            },
+            {
+              "mean": 9.659,
+              "standard_error": 0.07332527255725407
+            },
+            {
+              "mean": 9.5405,
+              "standard_error": 0.07570231562238101
+            },
+            {
+              "mean": 9.4985,
+              "standard_error": 0.07711805848791153
+            }
+          ],
+          "equal_scenario_test_average": 9.592625
+        },
+        {
+          "allocation": [
+            1,
+            1,
+            25,
+            34,
+            39
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.6235,
+              "standard_error": 0.07337493871637393
+            },
+            {
+              "mean": 9.66,
+              "standard_error": 0.07449126760197432
+            },
+            {
+              "mean": 9.526,
+              "standard_error": 0.07776162852506929
+            },
+            {
+              "mean": 9.436,
+              "standard_error": 0.08116027963844746
+            }
+          ],
+          "equal_scenario_test_average": 9.561375
+        },
+        {
+          "allocation": [
+            1,
+            1,
+            26,
+            33,
+            39
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.646,
+              "standard_error": 0.07342734896192
+            },
+            {
+              "mean": 9.6365,
+              "standard_error": 0.07697755057997943
+            },
+            {
+              "mean": 9.509,
+              "standard_error": 0.07885199196365705
+            },
+            {
+              "mean": 9.424,
+              "standard_error": 0.08194778483546361
+            }
+          ],
+          "equal_scenario_test_average": 9.553875
+        },
+        {
+          "allocation": [
+            1,
+            2,
+            27,
+            32,
+            38
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 9.6845,
+              "standard_error": 0.07322275139136279
+            },
+            {
+              "mean": 9.465,
+              "standard_error": 0.08285010041719405
+            },
+            {
+              "mean": 9.244,
+              "standard_error": 0.08770208467109351
+            },
+            {
+              "mean": 9.0585,
+              "standard_error": 0.0929325788634654
+            }
+          ],
+          "equal_scenario_test_average": 9.363
+        }
+      ]
+    },
+    "2": {
+      "previous": [
+        0,
+        0,
+        36,
+        0,
+        64
+      ],
+      "scenario_specialists": [
+        [
+          0,
+          0,
+          33,
+          0,
+          67
+        ],
+        [
+          0,
+          0,
+          44,
+          56,
+          0
+        ],
+        [
+          8,
+          3,
+          40,
+          49,
+          0
+        ],
+        [
+          8,
+          0,
+          43,
+          49,
+          0
+        ]
+      ],
+      "selected_on_training": [
+        8,
+        0,
+        43,
+        49,
+        0
+      ],
+      "cautious_shortlist_choice": [
+        0,
+        0,
+        44,
+        56,
+        0
+      ],
+      "selection_objective": "Equal-weight mean over four training scenarios; weights are assumptions.",
+      "test_evaluations": [
+        {
+          "allocation": [
+            0,
+            0,
+            36,
+            0,
+            64
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 7.667,
+              "standard_error": 0.07607166291003435,
+              "outright_first_rate": 0.733,
+              "tied_first_rate": 0.081
+            },
+            {
+              "mean": 5.39,
+              "standard_error": 0.11429550937575574,
+              "outright_first_rate": 0.457,
+              "tied_first_rate": 0.07
+            },
+            {
+              "mean": 3.6855,
+              "standard_error": 0.10829389325958005,
+              "outright_first_rate": 0.255,
+              "tied_first_rate": 0.053
+            },
+            {
+              "mean": 2.574,
+              "standard_error": 0.0930412848185185,
+              "outright_first_rate": 0.143,
+              "tied_first_rate": 0.028
+            }
+          ],
+          "equal_scenario_test_average": 4.8291249999999994
+        },
+        {
+          "allocation": [
+            0,
+            0,
+            33,
+            0,
+            67
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 7.5945,
+              "standard_error": 0.07425856236208782,
+              "outright_first_rate": 0.701,
+              "tied_first_rate": 0.103
+            },
+            {
+              "mean": 6.1085,
+              "standard_error": 0.10584507986170603,
+              "outright_first_rate": 0.518,
+              "tied_first_rate": 0.086
+            },
+            {
+              "mean": 5.164,
+              "standard_error": 0.11255564300723787,
+              "outright_first_rate": 0.406,
+              "tied_first_rate": 0.076
+            },
+            {
+              "mean": 4.292,
+              "standard_error": 0.11833739789153613,
+              "outright_first_rate": 0.343,
+              "tied_first_rate": 0.032
+            }
+          ],
+          "equal_scenario_test_average": 5.78975
+        },
+        {
+          "allocation": [
+            0,
+            0,
+            44,
+            56,
+            0
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 6.7565,
+              "standard_error": 0.09294404954781316,
+              "outright_first_rate": 0.589,
+              "tied_first_rate": 0.081
+            },
+            {
+              "mean": 7.216,
+              "standard_error": 0.0887170486136386,
+              "outright_first_rate": 0.682,
+              "tied_first_rate": 0.058
+            },
+            {
+              "mean": 7.327,
+              "standard_error": 0.08348377411533657,
+              "outright_first_rate": 0.689,
+              "tied_first_rate": 0.047
+            },
+            {
+              "mean": 7.4115,
+              "standard_error": 0.07423900039183703,
+              "outright_first_rate": 0.665,
+              "tied_first_rate": 0.061
+            }
+          ],
+          "equal_scenario_test_average": 7.1777500000000005
+        },
+        {
+          "allocation": [
+            8,
+            3,
+            40,
+            49,
+            0
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 6.188,
+              "standard_error": 0.09976777841372238,
+              "outright_first_rate": 0.511,
+              "tied_first_rate": 0.083
+            },
+            {
+              "mean": 6.8645,
+              "standard_error": 0.09515747314160194,
+              "outright_first_rate": 0.634,
+              "tied_first_rate": 0.062
+            },
+            {
+              "mean": 7.6015,
+              "standard_error": 0.08073701887124776,
+              "outright_first_rate": 0.741,
+              "tied_first_rate": 0.077
+            },
+            {
+              "mean": 8.441,
+              "standard_error": 0.053398224412150364,
+              "outright_first_rate": 0.885,
+              "tied_first_rate": 0.049
+            }
+          ],
+          "equal_scenario_test_average": 7.27375
+        },
+        {
+          "allocation": [
+            8,
+            0,
+            43,
+            49,
+            0
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 6.425,
+              "standard_error": 0.09815553733493342,
+              "outright_first_rate": 0.547,
+              "tied_first_rate": 0.083
+            },
+            {
+              "mean": 7.0365,
+              "standard_error": 0.09330124797060796,
+              "outright_first_rate": 0.664,
+              "tied_first_rate": 0.06
+            },
+            {
+              "mean": 7.63,
+              "standard_error": 0.08052070282594151,
+              "outright_first_rate": 0.749,
+              "tied_first_rate": 0.072
+            },
+            {
+              "mean": 8.41,
+              "standard_error": 0.05489456633778442,
+              "outright_first_rate": 0.878,
+              "tied_first_rate": 0.054
+            }
+          ],
+          "equal_scenario_test_average": 7.375375
+        },
+        {
+          "allocation": [
+            0,
+            0,
+            35,
+            0,
+            65
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 7.6335,
+              "standard_error": 0.07621506731930693,
+              "outright_first_rate": 0.723,
+              "tied_first_rate": 0.087
+            },
+            {
+              "mean": 5.7745,
+              "standard_error": 0.10932452424594219,
+              "outright_first_rate": 0.484,
+              "tied_first_rate": 0.095
+            },
+            {
+              "mean": 4.3235,
+              "standard_error": 0.11103570000984672,
+              "outright_first_rate": 0.31,
+              "tied_first_rate": 0.084
+            },
+            {
+              "mean": 3.233,
+              "standard_error": 0.10507736317710038,
+              "outright_first_rate": 0.204,
+              "tied_first_rate": 0.066
+            }
+          ],
+          "equal_scenario_test_average": 5.241125
+        },
+        {
+          "allocation": [
+            0,
+            0,
+            38,
+            0,
+            62
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 7.702,
+              "standard_error": 0.07690975953096663,
+              "outright_first_rate": 0.747,
+              "tied_first_rate": 0.074
+            },
+            {
+              "mean": 5.2695,
+              "standard_error": 0.11410144122178689,
+              "outright_first_rate": 0.454,
+              "tied_first_rate": 0.05
+            },
+            {
+              "mean": 3.58825,
+              "standard_error": 0.10151640270181718,
+              "outright_first_rate": 0.235,
+              "tied_first_rate": 0.035
+            },
+            {
+              "mean": 2.7555,
+              "standard_error": 0.08073405562547777,
+              "outright_first_rate": 0.12,
+              "tied_first_rate": 0.03
+            }
+          ],
+          "equal_scenario_test_average": 4.8288125
+        },
+        {
+          "allocation": [
+            0,
+            0,
+            0,
+            45,
+            55
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 7.3095,
+              "standard_error": 0.0838599561306959,
+              "outright_first_rate": 0.682,
+              "tied_first_rate": 0.053
+            },
+            {
+              "mean": 4.8415,
+              "standard_error": 0.09640239193698034,
+              "outright_first_rate": 0.3,
+              "tied_first_rate": 0.043
+            },
+            {
+              "mean": 3.458,
+              "standard_error": 0.07069111141602766,
+              "outright_first_rate": 0.085,
+              "tied_first_rate": 0.039
+            },
+            {
+              "mean": 3.05675,
+              "standard_error": 0.05117578429685664,
+              "outright_first_rate": 0.016,
+              "tied_first_rate": 0.045
+            }
+          ],
+          "equal_scenario_test_average": 4.6664375
+        },
+        {
+          "allocation": [
+            0,
+            0,
+            0,
+            40,
+            60
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 7.576,
+              "standard_error": 0.07673729609917601,
+              "outright_first_rate": 0.711,
+              "tied_first_rate": 0.076
+            },
+            {
+              "mean": 5.0715,
+              "standard_error": 0.10341340378346553,
+              "outright_first_rate": 0.349,
+              "tied_first_rate": 0.071
+            },
+            {
+              "mean": 3.418,
+              "standard_error": 0.08809106672095665,
+              "outright_first_rate": 0.137,
+              "tied_first_rate": 0.044
+            },
+            {
+              "mean": 2.485,
+              "standard_error": 0.06927173719182718,
+              "outright_first_rate": 0.037,
+              "tied_first_rate": 0.036
+            }
+          ],
+          "equal_scenario_test_average": 4.637625
+        },
+        {
+          "allocation": [
+            1,
+            1,
+            37,
+            1,
+            60
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 7.4985,
+              "standard_error": 0.08205474228056982,
+              "outright_first_rate": 0.715,
+              "tied_first_rate": 0.076
+            },
+            {
+              "mean": 4.405,
+              "standard_error": 0.1155197810758825,
+              "outright_first_rate": 0.351,
+              "tied_first_rate": 0.045
+            },
+            {
+              "mean": 2.9195,
+              "standard_error": 0.09475097623506312,
+              "outright_first_rate": 0.164,
+              "tied_first_rate": 0.034
+            },
+            {
+              "mean": 2.331,
+              "standard_error": 0.08136682099946857,
+              "outright_first_rate": 0.098,
+              "tied_first_rate": 0.025
+            }
+          ],
+          "equal_scenario_test_average": 4.2885
+        },
+        {
+          "allocation": [
+            1,
+            1,
+            0,
+            33,
+            65
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 7.1965,
+              "standard_error": 0.0793248396164794,
+              "outright_first_rate": 0.617,
+              "tied_first_rate": 0.111
+            },
+            {
+              "mean": 5.821,
+              "standard_error": 0.10520469108850151,
+              "outright_first_rate": 0.464,
+              "tied_first_rate": 0.079
+            },
+            {
+              "mean": 5.05575,
+              "standard_error": 0.1086082418036849,
+              "outright_first_rate": 0.37,
+              "tied_first_rate": 0.077
+            },
+            {
+              "mean": 4.303,
+              "standard_error": 0.11175276139621643,
+              "outright_first_rate": 0.299,
+              "tied_first_rate": 0.086
+            }
+          ],
+          "equal_scenario_test_average": 5.594062500000001
+        },
+        {
+          "allocation": [
+            7,
+            18,
+            2,
+            0,
+            73
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 6.6025,
+              "standard_error": 0.07754196609905185,
+              "outright_first_rate": 0.456,
+              "tied_first_rate": 0.188
+            },
+            {
+              "mean": 6.2675,
+              "standard_error": 0.09719382897278196,
+              "outright_first_rate": 0.495,
+              "tied_first_rate": 0.122
+            },
+            {
+              "mean": 5.7905,
+              "standard_error": 0.11078643140467781,
+              "outright_first_rate": 0.485,
+              "tied_first_rate": 0.1
+            },
+            {
+              "mean": 5.6355,
+              "standard_error": 0.11453824146877217,
+              "outright_first_rate": 0.496,
+              "tied_first_rate": 0.085
+            }
+          ],
+          "equal_scenario_test_average": 6.074
+        },
+        {
+          "allocation": [
+            6,
+            6,
+            8,
+            3,
+            77
+          ],
+          "scenario_test_scores": [
+            {
+              "mean": 5.9825,
+              "standard_error": 0.07190350383579276,
+              "outright_first_rate": 0.311,
+              "tied_first_rate": 0.218
+            },
+            {
+              "mean": 6.2135,
+              "standard_error": 0.08121430608897372,
+              "outright_first_rate": 0.399,
+              "tied_first_rate": 0.181
+            },
+            {
+              "mean": 6.22475,
+              "standard_error": 0.08906729433647585,
+              "outright_first_rate": 0.444,
+              "tied_first_rate": 0.162
+            },
+            {
+              "mean": 6.726,
+              "standard_error": 0.08962118028655924,
+              "outright_first_rate": 0.551,
+              "tied_first_rate": 0.162
+            }
+          ],
+          "equal_scenario_test_average": 6.286687499999999
+        }
+      ]
+    }
+  }
+}
