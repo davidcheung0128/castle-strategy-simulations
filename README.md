@@ -67,8 +67,9 @@ The offline `outputs/castle-allocation-lab.html` is an interactive **Game 1** to
 3. For Game 2, score whole groups and search random allocations, every two-castle split, and local troop transfers. Castle marginals alone cannot determine a rank-based payoff.
 4. Add copied strong answers, nearby variations and learned counters. Test strategic shares of 0%, 25%, 50% and 75%; these shares are assumptions, not measured frequencies.
 5. Let opponents adapt again, select candidates using training data, freeze them, then evaluate on independent populations and group draws. Report the tradeoffs rather than selecting the best-looking test result.
+6. Find published picks for these exact questions, verify the source versions, and rescore them together. Solve Game 1's counter exactly; for Game 2's four-source field, exhaustively check all 4,598,126 allocations. Then test whether those targeted counters still work when only some applicants copy the public picks.
 
-See [the detailed process](docs/process.md) and [the concise application answer](docs/strategy-answer.md).
+See [the full process and reasoning behind the counter bids](docs/process.md#test-against-published-answers), [the sourced battle results](docs/public-repository-battle.md), and [the concise application answer](docs/strategy-answer.md).
 
 ## Public-repository comparison
 
